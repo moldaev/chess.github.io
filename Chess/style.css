@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #6483A1;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+    background: white;
+    position: relative;
+    padding-top: 0px;
+}
+
+.board{
+    display: flex;
+    flex-wrap: wrap;
+    height: 500px;
+    width: 500px;
+    border: 1px solid black;
+
+}
+
+.pawn {
+    background: url(./img/pawn.png) no-repeat;
+    background-size: 30px;
+    background-position: 15px;   
+}
+
+h2 {
+    font-family: 'Asap', sans-serif;
+}
